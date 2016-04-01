@@ -18,7 +18,7 @@ var server=http.createServer(function(req,res){
     req.on('data',function(data){
       aaa();
         console.log('服务端接收到的数据'+data);
-        res.write('hello你');
+        res.write('hellosd你');
         res.end();
 
     });
